@@ -4,8 +4,8 @@ import socketIOClient from 'socket.io-client';
 const socket = socketIOClient('http://localhost:3001');
 
 class App extends Component {
-  constructor(prosp) {
-    super(prosp);
+  constructor(props) {
+    super(props);
     this.state = {
       username: '',
       inputValue: '',
